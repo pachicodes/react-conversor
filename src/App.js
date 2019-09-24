@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <Conversor moedaA="USD" moedaB="BRL"></Conversor>
+        <Conversor moedaA="BRL" moedaB="USD"></Conversor>
       </div>
     );
   }
